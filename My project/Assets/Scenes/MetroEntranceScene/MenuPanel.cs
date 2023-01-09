@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuPanel : MonoBehaviour
 {
@@ -11,6 +12,15 @@ public class MenuPanel : MonoBehaviour
     void Start()
     {
         menuPanel.SetActive(false);    
+    }
+
+    public void ReturntoTitle()
+    {
+        SceneManager.LoadScene("TitleScreen");
+
+        Time.timeScale = 1;
+
+        AudioListener.pause = false;
     }
 
     public void ResumeButton()

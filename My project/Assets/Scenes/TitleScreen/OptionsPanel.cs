@@ -27,7 +27,7 @@ public class OptionsPanel : MonoBehaviour
         volumeSlider.value = PlayerPrefs.GetFloat("VolumeLevel", 1.0f);
 
         // Set the initial value of the slider to the current mouse sensitivity
-        mouseSensitivitySlider.value = PlayerPrefs.GetFloat("Mouse Sensitivity", 0.5f);
+        mouseSensitivitySlider.value = 1.0f;
     }
 
     public void OnVolumeChanged()

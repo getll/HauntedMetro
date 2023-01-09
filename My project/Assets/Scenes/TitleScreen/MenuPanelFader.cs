@@ -12,13 +12,7 @@ public class MenuPanelFader : MonoBehaviour
         // Fade in the menu panel
         StartCoroutine(FadeIn(menuPanel, fadeDuration));
     }
-
-    public void OnButtonPressed()
-    {
-        // Fade out the menu panel
-        StartCoroutine(FadeOut(menuPanel, fadeDuration));
-    }
-
+    
     IEnumerator FadeIn(CanvasGroup canvasGroup, float duration)
     {
         // Set the initial alpha to 0
@@ -26,15 +20,6 @@ public class MenuPanelFader : MonoBehaviour
 
         // Fade in over the specified duration
         yield return Fade(canvasGroup, 0, 1, duration);
-    }
-
-    IEnumerator FadeOut(CanvasGroup canvasGroup, float duration)
-    {
-        // Fade out over the specified duration
-        yield return Fade(canvasGroup, 1, 0, duration);
-
-        // Set the final alpha to 0
-        canvasGroup.alpha = 0;
     }
 
     IEnumerator Fade(CanvasGroup canvasGroup, float startAlpha, float endAlpha, float duration)

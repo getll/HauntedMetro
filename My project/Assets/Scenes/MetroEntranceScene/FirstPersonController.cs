@@ -8,8 +8,8 @@ public class FirstPersonController : MonoBehaviour
     public float stamina = 100.0f;
     public float staminaRecoveryRate = 5.0f;
     public float staminaDrainRate = 10.0f;
-    public Image staminaBar;
-    float mouseSensitivity;
+    public Slider staminaBar;
+    float mouseSensitivity = 1.0f;
     public float jumpHeight = 2.0f;
 
     float verticalRotation = 0;
@@ -31,11 +31,22 @@ public class FirstPersonController : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
-        mouseSensitivity = PlayerPrefs.GetFloat("Mouse Sensitivity", 0.5f);
+        mouseSensitivity = PlayerPrefs.GetFloat("Mouse Sensitivity", 1.0f);
     }
 
     void Update()
     {
+        if (menuPanel.activeSelf || optionsPanel.activeSelf)
+        {
+            // Darken the stamina bar if the menu or options panel is active
+            staminaBar.interactable = false;
+        }
+        else
+        {
+            // Restore the normal color of the stamina bar if the menu and options panel are not active
+            staminaBar.interactable = true;
+        }
+
         if (!menuPanel.activeSelf && !optionsPanel.activeSelf)
         {
             // Rotate player based on mouse movement
@@ -72,7 +83,7 @@ public class FirstPersonController : MonoBehaviour
         stamina = Mathf.Clamp(stamina, 0, 100);
 
         // Update the stamina bar
-        staminaBar.fillAmount = stamina / 100.0f;
+        staminaBar.value = stamina;
 
         // Calculate the movement direction based on WASD input
         float forward = Input.GetAxis("Vertical");
@@ -81,7 +92,7 @@ public class FirstPersonController : MonoBehaviour
         direction = transform.rotation * direction;
 
         // Calculate the movement vector
-        Vector3 speeed = direction * movementSpeed;
+        Vector3 movement = direction * speed;
 
         verticalVelocity += Physics.gravity.y * Time.deltaTime;
 
@@ -91,10 +102,10 @@ public class FirstPersonController : MonoBehaviour
         }
 
         // Add the vertical velocity to the movement vector
-        speeed += new Vector3(0, verticalVelocity, 0);
+        movement += new Vector3(0, verticalVelocity, 0);
 
         // Move the character controller
-        characterController.Move(speeed * Time.deltaTime);
+        characterController.Move(movement * Time.deltaTime);
     }
 }
 
