@@ -17,6 +17,18 @@ public class FirstPersonController : MonoBehaviour
 
     float verticalVelocity = 0;
 
+    // Add the variables for the camera effect
+    public float bobbingSpeed = 0.18f;
+    public float bobbingAmount = 0.2f;
+    public float breathingSpeed = 0.05f;
+    public float breathingAmount = 0.02f;
+    public bool isCameraEffectEnabled = true;
+
+    private float timer = 0f;
+    private Vector3 originalPosition;
+    private float movement;
+    private bool isSprinting = false;
+
     CharacterController characterController;
 
     public GameObject menuPanel;
@@ -32,6 +44,7 @@ public class FirstPersonController : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         mouseSensitivity = PlayerPrefs.GetFloat("Mouse Sensitivity", 1.0f);
+        originalPosition = Camera.main.transform.localPosition;
     }
 
     void Update()
@@ -59,7 +72,7 @@ public class FirstPersonController : MonoBehaviour
         }
         
         // Check if the player is sprinting
-        bool isSprinting = Input.GetKey(KeyCode.LeftShift) && stamina > 0;
+        isSprinting = Input.GetKey(KeyCode.LeftShift) && stamina > 0;
 
         // Calculate the movement speed
         float speed = movementSpeed;
@@ -101,11 +114,62 @@ public class FirstPersonController : MonoBehaviour
             verticalVelocity = jumpHeight;
         }
 
+        if (isCameraEffectEnabled) 
+        {
+            // Add the camera effects
+            if (movement.magnitude > 0)
+            {
+            movement *= bobbingAmount;
+            BobbingEffect();
+            }
+            else
+            {
+            BreathingEffect();
+            }
+        }
+        
+
         // Add the vertical velocity to the movement vector
         movement += new Vector3(0, verticalVelocity, 0);
 
         // Move the character controller
         characterController.Move(movement * Time.deltaTime);
+    }
+
+    private void BreathingEffect()
+    {
+        float waveslice = 0f;
+        waveslice = Mathf.Sin(timer);
+        timer = timer + breathingSpeed;
+        if (timer > Mathf.PI * 2)
+        {
+            timer = timer - (Mathf.PI * 2);
+        }
+        float translateChange = waveslice * breathingAmount;
+        Camera.main.transform.localPosition = originalPosition + new Vector3(0f, translateChange, 0f);
+    }
+
+    private void BobbingEffect()
+    {
+        float waveslice = Mathf.Sin(timer);
+        timer = timer + bobbingSpeed;
+        if (timer > Mathf.PI * 2)
+        {
+            timer = timer - (Mathf.PI * 2);
+        }
+        float translateChange = waveslice * bobbingAmount;
+        float sprintMultiplier = 1f;
+        if (isSprinting)
+        {
+            sprintMultiplier = 2f;
+        }
+        Camera.main.transform.localPosition = originalPosition + new Vector3(0f, translateChange, 0f) * sprintMultiplier;
+    }
+
+    public void toggleBobbing()
+    {
+        isCameraEffectEnabled = !isCameraEffectEnabled;
+        movementSpeed = isCameraEffectEnabled ? movementSpeed *= 10 : movementSpeed /= 10;
     }
 }
 

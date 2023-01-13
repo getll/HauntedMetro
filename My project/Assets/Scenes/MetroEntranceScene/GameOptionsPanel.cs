@@ -39,6 +39,9 @@ public class GameOptionsPanel : MonoBehaviour
 
         // Update the mouse sensitivity in the FirstPersonController script
         firstPersonController.SetMouseSensitivity(sensitivity);
+
+        // Save the sensistivity level to PlayerPrefs
+        PlayerPrefs.SetFloat("Mouse Sensitivity", mouseSensitivitySlider.value);
     }
 
     public void OnVolumeChanged()
@@ -81,5 +84,4 @@ public class GameOptionsPanel : MonoBehaviour
             break;
         }
     }
-    
 }

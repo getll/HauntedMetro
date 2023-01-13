@@ -10,6 +10,7 @@ public class SplashScreen : MonoBehaviour
 
     public CanvasGroup logoGroup;
     public CanvasGroup textGroup;
+    public CanvasGroup mouseGroup;
 
     void Start()
     {
@@ -21,6 +22,7 @@ public class SplashScreen : MonoBehaviour
         // Fade in
         logoGroup.alpha = 0.0f;
         textGroup.alpha = 0.0f;
+        mouseGroup.alpha = 0.0f;
         float t = 0.0f;
         while (t < 1.0f)
         {
@@ -38,6 +40,8 @@ public class SplashScreen : MonoBehaviour
             yield return null;
         }
 
+        mouseGroup.alpha = 1.0f;
+
         // Wait for user input
         while (!Input.GetMouseButtonDown(0))
         {
@@ -51,6 +55,7 @@ public class SplashScreen : MonoBehaviour
             t += Time.deltaTime / fadeOutDuration;
             logoGroup.alpha = 1.0f - Mathf.Lerp(0.0f, 1.0f, t);
             textGroup.alpha = 1.0f - Mathf.Lerp(0.0f, 1.0f, t);
+            mouseGroup.alpha = 1.0f - Mathf.Lerp(0.0f, 1.0f, t);
             yield return null;
         }
 

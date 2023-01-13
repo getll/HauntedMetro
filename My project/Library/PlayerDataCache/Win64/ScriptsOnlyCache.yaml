@@ -10,11 +10,6 @@ ScriptsOnlyBuild:
     - MenuPanelFader
     - OptionsPanel
     - SplashScreen
-    Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.ProBuilderShapeEditor
-    - UnityEditor.ProBuilder.ProbuilderMoveTool
-    - UnityEditor.ProBuilder.ProbuilderRotateTool
-    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -121,11 +116,17 @@ ScriptsOnlyBuild:
     fullTypeName: GameOptionsPanel
     methodName: UpdateMouseSensitivity
   - assembly: Assembly-CSharp
+    fullTypeName: MenuPanel
+    methodName: ReturntoTitle
+  - assembly: Assembly-CSharp
     fullTypeName: GameOptionsPanel
     methodName: returnToMenuPanel
   - assembly: Assembly-CSharp
     fullTypeName: GameOptionsPanel
     methodName: goFullScreen
+  - assembly: Assembly-CSharp
+    fullTypeName: FirstPersonController
+    methodName: toggleBobbing
   sceneClasses:
     Assets/Scenes/MetroEntranceScene/Gamescene.unity:
     - Class: 1
@@ -165,41 +166,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 2492}
+      Script: {instanceID: 2504}
     - Class: 114
-      Script: {instanceID: 2816}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 2828}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 3064}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3412}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 4312}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4430}
     - Class: 114
-      Script: {instanceID: 5548}
+      Script: {instanceID: 5586}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5652}
     - Class: 114
-      Script: {instanceID: 5700}
+      Script: {instanceID: 5738}
     - Class: 114
-      Script: {instanceID: 6372}
+      Script: {instanceID: 6414}
     - Class: 114
-      Script: {instanceID: 6540}
+      Script: {instanceID: 6586}
     - Class: 114
-      Script: {instanceID: 6928}
+      Script: {instanceID: 6984}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6996}
     - Class: 114
-      Script: {instanceID: 8228}
+      Script: {instanceID: 8290}
     - Class: 114
-      Script: {instanceID: 8296}
+      Script: {instanceID: 8360}
     - Class: 114
-      Script: {instanceID: 9008}
+      Script: {instanceID: 9086}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -222,6 +223,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 225
       Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
     Assets/Scenes/SplashScreen/SplashScreen.unity:
@@ -239,36 +242,44 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2356}
+      Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 2492}
+      Script: {instanceID: 2362}
     - Class: 114
-      Script: {instanceID: 2816}
+      Script: {instanceID: 2504}
     - Class: 114
-      Script: {instanceID: 3064}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 4554}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 4856}
+      Script: {instanceID: 4578}
     - Class: 114
-      Script: {instanceID: 5700}
+      Script: {instanceID: 4882}
     - Class: 114
-      Script: {instanceID: 6372}
+      Script: {instanceID: 5738}
     - Class: 114
-      Script: {instanceID: 6540}
+      Script: {instanceID: 6414}
     - Class: 114
-      Script: {instanceID: 6928}
+      Script: {instanceID: 6586}
     - Class: 114
-      Script: {instanceID: 8908}
+      Script: {instanceID: 6984}
+    - Class: 114
+      Script: {instanceID: 8980}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -276,6 +287,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -315,39 +328,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 2816}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 2828}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 2910}
     - Class: 114
-      Script: {instanceID: 3064}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3412}
     - Class: 114
-      Script: {instanceID: 4124}
+      Script: {instanceID: 4148}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 4312}
     - Class: 114
-      Script: {instanceID: 5548}
+      Script: {instanceID: 5586}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5652}
     - Class: 114
-      Script: {instanceID: 5700}
+      Script: {instanceID: 5738}
     - Class: 114
-      Script: {instanceID: 6372}
+      Script: {instanceID: 6414}
     - Class: 114
-      Script: {instanceID: 6540}
+      Script: {instanceID: 6586}
     - Class: 114
-      Script: {instanceID: 6928}
+      Script: {instanceID: 6984}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6996}
     - Class: 114
-      Script: {instanceID: 7358}
+      Script: {instanceID: 7416}
     - Class: 114
-      Script: {instanceID: 8228}
+      Script: {instanceID: 8290}
     - Class: 114
-      Script: {instanceID: 8784}
+      Script: {instanceID: 8854}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -366,6 +379,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 225
       Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -379,6 +396,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: f21ca3423d66e0778305b4d2db494025
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HeadBobbing
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -735,7 +758,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: aa19789ed4837b7d4000cbf60e59ab20
+      Hash: 50390db78ce96a50429ac6b2b467c4a4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FirstPersonController
@@ -1221,7 +1244,7 @@ ScriptsOnlyBuild:
     className: MainMenuPanel
   - hash:
       serializedVersion: 2
-      Hash: 322864ff9efab2a66f1d27b50827cb6e
+      Hash: e27b8b4670fce804d7e64273d9b01c00
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SplashScreen

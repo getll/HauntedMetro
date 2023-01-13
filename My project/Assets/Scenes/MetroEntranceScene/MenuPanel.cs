@@ -7,13 +7,7 @@ public class MenuPanel : MonoBehaviour
 {
     public GameObject menuPanel;
     public GameObject optionsPanel;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        menuPanel.SetActive(false);    
-    }
-
+    
     public void ReturntoTitle()
     {
         SceneManager.LoadScene("TitleScreen");

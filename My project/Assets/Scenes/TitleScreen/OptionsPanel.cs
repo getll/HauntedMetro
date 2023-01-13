@@ -24,10 +24,11 @@ public class OptionsPanel : MonoBehaviour
         optionsPanel.SetActive(false);
 
         // Load the saved volume level from PlayerPrefs
-        volumeSlider.value = PlayerPrefs.GetFloat("VolumeLevel", 1.0f);
+        volumeSlider.value = 0.20f;
 
         // Set the initial value of the slider to the current mouse sensitivity
         mouseSensitivitySlider.value = 1.0f;
+        PlayerPrefs.SetFloat("Mouse Sensitivity", 1.0f);
     }
 
     public void OnVolumeChanged()
