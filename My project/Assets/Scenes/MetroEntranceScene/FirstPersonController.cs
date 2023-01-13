@@ -78,7 +78,15 @@ public class FirstPersonController : MonoBehaviour
         float speed = movementSpeed;
         if (isSprinting)
         {
-            speed *= sprintMultiplier;
+            if (!isCameraEffectEnabled)
+            {
+                speed *= (sprintMultiplier * 0.6f);
+            }
+
+            else
+            {
+                speed *= sprintMultiplier;
+            }    
         }
 
         // Drain stamina if the player is sprinting

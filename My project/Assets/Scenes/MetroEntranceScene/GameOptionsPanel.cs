@@ -21,15 +21,11 @@ public class GameOptionsPanel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Options Panel is set to inactive when the Title Screen is loaded
-        optionsPanel.SetActive(false);
-
         // Load the saved volume level from PlayerPrefs
         volumeSlider.value = PlayerPrefs.GetFloat("VolumeLevel", 1.0f);
 
         // Set the initial value of the slider to the current mouse sensitivity
         mouseSensitivitySlider.value = PlayerPrefs.GetFloat("Mouse Sensitivity", 1.0f);
-
     }
 
     public void UpdateMouseSensitivity()
