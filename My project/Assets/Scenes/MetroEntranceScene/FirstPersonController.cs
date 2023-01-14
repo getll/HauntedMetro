@@ -34,6 +34,9 @@ public class FirstPersonController : MonoBehaviour
     public GameObject menuPanel;
     public GameObject optionsPanel;
 
+    private bool isStaminaDepleted = false;
+    private float staminaDepletionTimer = 0f;
+
     public void SetMouseSensitivity(float sensitivity)
     {
         mouseSensitivity = sensitivity;
@@ -105,6 +108,26 @@ public class FirstPersonController : MonoBehaviour
 
         // Update the stamina bar
         staminaBar.value = stamina;
+
+        if(stamina <= 0 && !isStaminaDepleted)
+        {
+        isStaminaDepleted = true;
+        staminaDepletionTimer = 0f;
+        }
+
+        if(isStaminaDepleted)
+        {
+        staminaDepletionTimer += Time.deltaTime;
+        if(staminaDepletionTimer >= 4f)
+        {
+            isStaminaDepleted = false;
+        }
+        }
+        else
+        {
+        // Recover stamina if the player is not sprinting and stamina is not depleted
+        stamina += staminaRecoveryRate * Time.deltaTime;
+        }
 
         // Calculate the movement direction based on WASD input
         float forward = Input.GetAxis("Vertical");
