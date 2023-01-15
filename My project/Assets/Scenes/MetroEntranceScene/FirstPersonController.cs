@@ -37,6 +37,15 @@ public class FirstPersonController : MonoBehaviour
     private bool isStaminaDepleted = false;
     private float staminaDepletionTimer = 0f;
 
+    public float crouchSpeed = 2.5f;
+    public float crouchHeight = 1.5f;
+    private float originalHeight;
+    public float crouchSmoothTime = 0.2f;
+    private float targetHeight;
+    private float currentHeight;
+    private float crouchVelocity;
+    private bool isCrouching = false;
+
     public void SetMouseSensitivity(float sensitivity)
     {
         mouseSensitivity = sensitivity;
@@ -48,6 +57,22 @@ public class FirstPersonController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         mouseSensitivity = PlayerPrefs.GetFloat("Mouse Sensitivity", 1.0f);
         originalPosition = Camera.main.transform.localPosition;
+        targetHeight = originalHeight;
+    }
+
+    void FixedUpdate()
+    {
+        if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+        targetHeight = originalHeight;
+        }
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+        targetHeight = crouchHeight;
+        }
+        currentHeight = Mathf.SmoothDamp(currentHeight, targetHeight, ref crouchVelocity, crouchSmoothTime);
+        characterController.height = currentHeight;
+        characterController.center = new Vector3(0, currentHeight / 2, 0);
     }
 
     void Update()
@@ -101,6 +126,11 @@ public class FirstPersonController : MonoBehaviour
         {
             // Recover stamina if the player is not sprinting
             stamina += staminaRecoveryRate * Time.deltaTime;
+        }
+
+        if (isCrouching)
+        {
+            speed *= crouchSpeed;
         }
 
         // Clamp the stamina value between 0 and 100
