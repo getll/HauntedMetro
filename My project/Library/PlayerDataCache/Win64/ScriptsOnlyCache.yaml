@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - DontDestroyMusic
     - FirstPersonController
     - GameOptionsPanel
+    - LightFlicker
     - MainMenuPanel
     - MenuOpener
     - MenuPanel
@@ -206,21 +207,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5698}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5776}
     - Class: 114
-      Script: {instanceID: 6466}
+      Script: {instanceID: 5786}
     - Class: 114
-      Script: {instanceID: 6638}
+      Script: {instanceID: 6468}
     - Class: 114
-      Script: {instanceID: 7038}
+      Script: {instanceID: 6640}
     - Class: 114
-      Script: {instanceID: 7050}
+      Script: {instanceID: 7040}
     - Class: 114
-      Script: {instanceID: 8358}
+      Script: {instanceID: 7052}
     - Class: 114
-      Script: {instanceID: 8428}
+      Script: {instanceID: 8360}
     - Class: 114
-      Script: {instanceID: 9154}
+      Script: {instanceID: 8430}
+    - Class: 114
+      Script: {instanceID: 9156}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -295,15 +298,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4916}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5786}
     - Class: 114
-      Script: {instanceID: 6466}
+      Script: {instanceID: 6468}
     - Class: 114
-      Script: {instanceID: 6638}
+      Script: {instanceID: 6640}
     - Class: 114
-      Script: {instanceID: 7038}
+      Script: {instanceID: 7040}
     - Class: 114
-      Script: {instanceID: 9046}
+      Script: {instanceID: 9048}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -370,21 +373,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5698}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5786}
     - Class: 114
-      Script: {instanceID: 6466}
+      Script: {instanceID: 6468}
     - Class: 114
-      Script: {instanceID: 6638}
+      Script: {instanceID: 6640}
     - Class: 114
-      Script: {instanceID: 7038}
+      Script: {instanceID: 7040}
     - Class: 114
-      Script: {instanceID: 7050}
+      Script: {instanceID: 7052}
     - Class: 114
-      Script: {instanceID: 7476}
+      Script: {instanceID: 7478}
     - Class: 114
-      Script: {instanceID: 8358}
+      Script: {instanceID: 8360}
     - Class: 114
-      Script: {instanceID: 8920}
+      Script: {instanceID: 8922}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1074,6 +1077,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 234dd6733c8795ead7000d39e367f640
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightFlicker
   - hash:
       serializedVersion: 2
       Hash: e78765d93b37fe61ed100bbbc2be3ac6

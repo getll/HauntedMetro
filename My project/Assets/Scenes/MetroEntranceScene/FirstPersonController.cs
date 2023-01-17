@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class FirstPersonController : MonoBehaviour
 {
     public float movementSpeed = 5.0f;
+    private float originalMovementSpeed;
     public float sprintMultiplier = 2.0f;
     public float stamina = 100.0f;
     public float staminaRecoveryRate = 5.0f;
@@ -57,6 +58,7 @@ public class FirstPersonController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         mouseSensitivity = PlayerPrefs.GetFloat("Mouse Sensitivity", 1.0f);
         originalPosition = Camera.main.transform.localPosition;
+        originalMovementSpeed = movementSpeed;
         targetHeight = originalHeight;
     }
 
@@ -64,11 +66,13 @@ public class FirstPersonController : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
-        targetHeight = originalHeight;
+            targetHeight = originalHeight;
+            isCrouching = false;
         }
         if (Input.GetKey(KeyCode.LeftControl))
         {
-        targetHeight = crouchHeight;
+            targetHeight = crouchHeight;
+            isCrouching = true;
         }
         currentHeight = Mathf.SmoothDamp(currentHeight, targetHeight, ref crouchVelocity, crouchSmoothTime);
         characterController.height = currentHeight;
@@ -99,11 +103,12 @@ public class FirstPersonController : MonoBehaviour
             Camera.main.transform.localRotation = Quaternion.Euler(verticalRotation, 0, 0);
         }
         
-        // Check if the player is sprinting
-        isSprinting = Input.GetKey(KeyCode.LeftShift) && stamina > 0;
+        // Check if the player is sprinting and not crouching
+        isSprinting = Input.GetKey(KeyCode.LeftShift) && stamina > 0 && !isCrouching;
 
         // Calculate the movement speed
         float speed = movementSpeed;
+
         if (isSprinting)
         {
             if (!isCameraEffectEnabled)
@@ -116,6 +121,18 @@ public class FirstPersonController : MonoBehaviour
                 speed *= sprintMultiplier;
             }    
         }
+        else if (isCrouching)
+        {
+            speed = crouchSpeed * originalMovementSpeed;
+            bobbingSpeed = 0.1f;
+            breathingSpeed = 0.025f;
+        }
+        else
+        {
+        speed = originalMovementSpeed;
+        bobbingSpeed = 0.2f;
+        breathingSpeed = 0.05f;
+        }
 
         // Drain stamina if the player is sprinting
         if (isSprinting)
@@ -126,11 +143,6 @@ public class FirstPersonController : MonoBehaviour
         {
             // Recover stamina if the player is not sprinting
             stamina += staminaRecoveryRate * Time.deltaTime;
-        }
-
-        if (isCrouching)
-        {
-            speed *= crouchSpeed;
         }
 
         // Clamp the stamina value between 0 and 100

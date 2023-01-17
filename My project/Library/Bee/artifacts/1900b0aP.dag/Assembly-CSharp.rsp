@@ -343,6 +343,7 @@
 "Assets/Scenes/MetroEntranceScene/FirstPersonController.cs"
 "Assets/Scenes/MetroEntranceScene/GameOptionsPanel.cs"
 "Assets/Scenes/MetroEntranceScene/HeadBobbing.cs"
+"Assets/Scenes/MetroEntranceScene/LightFlicker.cs"
 "Assets/Scenes/MetroEntranceScene/MenuOpener.cs"
 "Assets/Scenes/MetroEntranceScene/MenuPanel.cs"
 "Assets/Scenes/MetroEntranceScene/MonologuePanel.cs"
