@@ -388,6 +388,8 @@
 "Assets/LeanTween/Framework/LTDescr.cs"
 "Assets/LeanTween/Framework/LTDescrOptional.cs"
 "Assets/LeanTween/Framework/LTSeq.cs"
+"Assets/Scenes/MetroCutscene/CutsceneInitialize.cs"
+"Assets/Scenes/MetroEntranceScene/DoorwayScript.cs"
 "Assets/Scenes/MetroEntranceScene/FirstPersonController.cs"
 "Assets/Scenes/MetroEntranceScene/GameOptionsPanel.cs"
 "Assets/Scenes/MetroEntranceScene/HeadBobbing.cs"

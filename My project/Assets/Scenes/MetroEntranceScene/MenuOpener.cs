@@ -6,6 +6,7 @@ public class MenuOpener : MonoBehaviour
 {
     public GameObject menuPanel;
     public GameObject optionsPanel;
+    public GameObject fadePanel;
 
     // Update is called once per frame
     void Update()
@@ -13,6 +14,8 @@ public class MenuOpener : MonoBehaviour
         // Check if the escape key has been pressed
         if (Input.GetKeyDown(KeyCode.Escape) && !optionsPanel.activeSelf)
         {
+            fadePanel.SetActive(false);
+
             // Toggle the active state of the options panel
             menuPanel.SetActive(!menuPanel.activeSelf);
 
