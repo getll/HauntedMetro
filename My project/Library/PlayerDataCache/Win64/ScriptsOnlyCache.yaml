@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CutsceneInitialize
     - DontDestroyMusic
+    - DoorwayScript
     - FirstPersonController
     - GameOptionsPanel
     - LightFlicker
@@ -13,6 +15,12 @@ ScriptsOnlyBuild:
     - OptionsPanel
     - RandomAudioPlayer
     - SplashScreen
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.ProBuilderEditor
+    - UnityEditor.ProBuilder.ProBuilderShapeEditor
+    - UnityEditor.ProBuilder.ProbuilderMoveTool
+    - UnityEditor.ProBuilder.ProbuilderRotateTool
+    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -136,7 +144,133 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: FirstPersonController
     methodName: toggleBobbing
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOptionsPanel
+    methodName: GraphicsSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOptionsPanel
+    methodName: OnVolumeChanged
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOptionsPanel
+    methodName: UpdateMouseSensitivity
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuPanel
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuPanel
+    methodName: OptionsButton
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuPanel
+    methodName: ResumeButton
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOptionsPanel
+    methodName: goFullScreen
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOptionsPanel
+    methodName: returnToMenuPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuPanel
+    methodName: ReturntoTitle
   sceneClasses:
+    Assets/Scenes/MetroCutscene/MetroCutscene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1842}
+    - Class: 114
+      Script: {instanceID: 2670}
+    - Class: 114
+      Script: {instanceID: 3002}
+    - Class: 114
+      Script: {instanceID: 3014}
+    - Class: 114
+      Script: {instanceID: 3102}
+    - Class: 114
+      Script: {instanceID: 3256}
+    - Class: 114
+      Script: {instanceID: 3596}
+    - Class: 114
+      Script: {instanceID: 4504}
+    - Class: 114
+      Script: {instanceID: 5408}
+    - Class: 114
+      Script: {instanceID: 5798}
+    - Class: 114
+      Script: {instanceID: 5866}
+    - Class: 114
+      Script: {instanceID: 5954}
+    - Class: 114
+      Script: {instanceID: 6636}
+    - Class: 114
+      Script: {instanceID: 6810}
+    - Class: 114
+      Script: {instanceID: 7212}
+    - Class: 114
+      Script: {instanceID: 7224}
+    - Class: 114
+      Script: {instanceID: 8536}
+    - Class: 114
+      Script: {instanceID: 8606}
+    - Class: 114
+      Script: {instanceID: 9334}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
     Assets/Scenes/MetroEntranceScene/Gamescene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -155,6 +289,8 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -181,49 +317,51 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1692}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 1760}
+      Script: {instanceID: 1910}
     - Class: 114
-      Script: {instanceID: 2518}
+      Script: {instanceID: 2670}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 3002}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 2936}
-    - Class: 114
-      Script: {instanceID: 2948}
+      Script: {instanceID: 3090}
     - Class: 114
       Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3436}
+      Script: {instanceID: 3256}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 4462}
+      Script: {instanceID: 4504}
     - Class: 114
-      Script: {instanceID: 5630}
+      Script: {instanceID: 4624}
     - Class: 114
-      Script: {instanceID: 5698}
+      Script: {instanceID: 5798}
     - Class: 114
-      Script: {instanceID: 5776}
+      Script: {instanceID: 5866}
     - Class: 114
-      Script: {instanceID: 5786}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 6468}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6640}
+      Script: {instanceID: 6636}
     - Class: 114
-      Script: {instanceID: 7040}
+      Script: {instanceID: 6794}
     - Class: 114
-      Script: {instanceID: 7052}
+      Script: {instanceID: 6810}
     - Class: 114
-      Script: {instanceID: 8360}
+      Script: {instanceID: 7212}
     - Class: 114
-      Script: {instanceID: 8430}
+      Script: {instanceID: 7224}
     - Class: 114
-      Script: {instanceID: 9156}
+      Script: {instanceID: 8536}
+    - Class: 114
+      Script: {instanceID: 8606}
+    - Class: 114
+      Script: {instanceID: 9334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -284,29 +422,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1692}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2376}
+      Script: {instanceID: 2528}
     - Class: 114
-      Script: {instanceID: 2518}
+      Script: {instanceID: 2670}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 3002}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3256}
     - Class: 114
-      Script: {instanceID: 4610}
+      Script: {instanceID: 4772}
     - Class: 114
-      Script: {instanceID: 4916}
+      Script: {instanceID: 5078}
     - Class: 114
-      Script: {instanceID: 5786}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6468}
+      Script: {instanceID: 6636}
     - Class: 114
-      Script: {instanceID: 6640}
+      Script: {instanceID: 6810}
     - Class: 114
-      Script: {instanceID: 7040}
+      Script: {instanceID: 7212}
     - Class: 114
-      Script: {instanceID: 9048}
+      Script: {instanceID: 9226}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -353,41 +491,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1692}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 3002}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 3082}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3256}
     - Class: 114
-      Script: {instanceID: 3436}
+      Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 4176}
+      Script: {instanceID: 4336}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 4504}
     - Class: 114
-      Script: {instanceID: 5630}
+      Script: {instanceID: 5798}
     - Class: 114
-      Script: {instanceID: 5698}
+      Script: {instanceID: 5866}
     - Class: 114
-      Script: {instanceID: 5786}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6468}
+      Script: {instanceID: 6636}
     - Class: 114
-      Script: {instanceID: 6640}
+      Script: {instanceID: 6810}
     - Class: 114
-      Script: {instanceID: 7040}
+      Script: {instanceID: 7212}
     - Class: 114
-      Script: {instanceID: 7052}
+      Script: {instanceID: 7224}
     - Class: 114
-      Script: {instanceID: 7478}
+      Script: {instanceID: 7652}
     - Class: 114
-      Script: {instanceID: 8360}
+      Script: {instanceID: 8536}
     - Class: 114
-      Script: {instanceID: 8922}
+      Script: {instanceID: 9100}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -605,7 +743,7 @@ ScriptsOnlyBuild:
     className: MonologuePanel
   - hash:
       serializedVersion: 2
-      Hash: 2443678f1b5faf0861cf152c29b98d0b
+      Hash: 760d4f06490a97e028a272cff127ffa0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuOpener
@@ -965,6 +1103,12 @@ ScriptsOnlyBuild:
     className: GeneralSequencer
   - hash:
       serializedVersion: 2
+      Hash: 9ef17839c6c2efe54a2a5e8833552258
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CutsceneInitialize
+  - hash:
+      serializedVersion: 2
       Hash: 6a6b62ad42f0c97f3b8565ebc273ad24
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1149,6 +1293,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: c12ed107710919cc1f6a8248947de29c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorwayScript
   - hash:
       serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
@@ -1478,5 +1628,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SplashScreen/SplashScreen.unity
   - Assets/Scenes/TitleScreen/TitleScreen.unity
   - Assets/Scenes/MetroEntranceScene/Gamescene.unity
+  - Assets/Scenes/MetroCutscene/MetroCutscene.unity
   playerPath: C:/Users/Nirav/Documents/GitHub/HauntedMetro/My project/Builds/Prochaine
     Station.exe

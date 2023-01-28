@@ -170,7 +170,11 @@
         162,
         163,
         164,
-        165
+        165,
+        166,
+        167,
+        168,
+        169
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -264,6 +268,28 @@
       "DebugActionIndex": 8
     },
     {
+      "Annotation": "CopyFiles Builds/Prochaine Station_Data/level3",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level3"
+      ],
+      "Outputs": [
+        "Builds/Prochaine Station_Data/level3"
+      ],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "CopyFiles Builds/Prochaine Station_Data/level3.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level3.resS"
+      ],
+      "Outputs": [
+        "Builds/Prochaine Station_Data/level3.resS"
+      ],
+      "DebugActionIndex": 10
+    },
+    {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/resources.assets",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -272,7 +298,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/resources.assets"
       ],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/resources.assets.resS",
@@ -283,7 +309,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/resources.assets.resS"
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/RuntimeInitializeOnLoads.json",
@@ -294,7 +320,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/RuntimeInitializeOnLoads.json"
       ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/ScriptingAssemblies.json",
@@ -305,7 +331,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/ScriptingAssemblies.json"
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets0.assets",
@@ -316,7 +342,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/sharedassets0.assets"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets0.assets.resS",
@@ -327,7 +353,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/sharedassets0.assets.resS"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets0.resource",
@@ -338,7 +364,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/sharedassets0.resource"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets1.assets",
@@ -349,7 +375,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/sharedassets1.assets"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets1.assets.resS",
@@ -360,7 +386,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/sharedassets1.assets.resS"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets1.resource",
@@ -371,7 +397,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/sharedassets1.resource"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets2.assets",
@@ -382,7 +408,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/sharedassets2.assets"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets2.assets.resS",
@@ -393,7 +419,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/sharedassets2.assets.resS"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets2.resource",
@@ -404,7 +430,29 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/sharedassets2.resource"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets3.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets3.assets"
+      ],
+      "Outputs": [
+        "Builds/Prochaine Station_Data/sharedassets3.assets"
+      ],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles Builds/Prochaine Station_Data/sharedassets3.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets3.assets.resS"
+      ],
+      "Outputs": [
+        "Builds/Prochaine Station_Data/sharedassets3.assets.resS"
+      ],
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Resources/unity_builtin_extra",
@@ -415,7 +463,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
@@ -426,7 +474,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/StreamingAssets/UnityServicesProjectConfiguration.json"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Assembly-CSharp.dll",
@@ -437,7 +485,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Mono.Security.dll",
@@ -448,7 +496,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/mscorlib.dll",
@@ -459,7 +507,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/netstandard.dll",
@@ -470,7 +518,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Newtonsoft.Json.dll",
@@ -481,7 +529,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.ComponentModel.Composition.dll",
@@ -492,7 +540,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Configuration.dll",
@@ -503,7 +551,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Core.dll",
@@ -514,7 +562,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -525,7 +573,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Data.dll",
@@ -536,7 +584,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.dll",
@@ -547,7 +595,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Drawing.dll",
@@ -558,7 +606,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.EnterpriseServices.dll",
@@ -569,7 +617,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.IO.Compression.dll",
@@ -580,7 +628,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -591,7 +639,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Net.Http.dll",
@@ -602,7 +650,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Numerics.dll",
@@ -613,7 +661,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Runtime.Serialization.dll",
@@ -624,7 +672,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Security.dll",
@@ -635,7 +683,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.ServiceModel.Internals.dll",
@@ -646,7 +694,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Transactions.dll",
@@ -657,7 +705,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Xml.dll",
@@ -668,7 +716,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/System.Xml.Linq.dll",
@@ -679,7 +727,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.Csg.dll",
@@ -690,7 +738,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.Csg.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.dll",
@@ -701,7 +749,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.KdTree.dll",
@@ -712,7 +760,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.KdTree.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.Poly2Tri.dll",
@@ -723,7 +771,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.Poly2Tri.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.Stl.dll",
@@ -734,7 +782,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.ProBuilder.Stl.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Analytics.dll",
@@ -745,7 +793,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Analytics.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Configuration.dll",
@@ -756,7 +804,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Configuration.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Device.dll",
@@ -767,7 +815,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Device.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.dll",
@@ -778,7 +826,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Environments.dll",
@@ -789,7 +837,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Environments.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
@@ -800,7 +848,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Environments.Internal.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Internal.dll",
@@ -811,7 +859,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Internal.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Networking.dll",
@@ -822,7 +870,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Networking.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Registration.dll",
@@ -833,7 +881,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Registration.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Scheduler.dll",
@@ -844,7 +892,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Scheduler.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Telemetry.dll",
@@ -855,7 +903,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Telemetry.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Threading.dll",
@@ -866,7 +914,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Services.Core.Threading.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.TextMeshPro.dll",
@@ -877,7 +925,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.Timeline.dll",
@@ -888,7 +936,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -899,7 +947,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -910,7 +958,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -921,7 +969,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/Unity.VisualScripting.State.dll",
@@ -932,7 +980,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -943,7 +991,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.AIModule.dll",
@@ -954,7 +1002,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -965,7 +1013,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -976,7 +1024,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.ARModule.dll",
@@ -987,7 +1035,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -998,7 +1046,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.AudioModule.dll",
@@ -1009,7 +1057,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.ClothModule.dll",
@@ -1020,7 +1068,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -1031,7 +1079,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -1042,7 +1090,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.CoreModule.dll",
@@ -1053,7 +1101,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -1064,7 +1112,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -1075,7 +1123,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.dll",
@@ -1086,7 +1134,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -1097,7 +1145,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -1108,7 +1156,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.GIModule.dll",
@@ -1119,7 +1167,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.GridModule.dll",
@@ -1130,7 +1178,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -1141,7 +1189,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -1152,7 +1200,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -1163,7 +1211,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -1174,7 +1222,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.InputModule.dll",
@@ -1185,7 +1233,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1196,7 +1244,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1207,7 +1255,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -1218,7 +1266,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1229,7 +1277,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1240,7 +1288,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1251,7 +1299,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1262,7 +1310,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1273,7 +1321,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1284,7 +1332,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1295,7 +1343,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1306,7 +1354,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1317,7 +1365,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1328,7 +1376,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1339,7 +1387,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1350,7 +1398,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1361,7 +1409,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1372,7 +1420,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1383,7 +1431,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1394,7 +1442,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1405,7 +1453,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1416,7 +1464,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1427,7 +1475,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1438,7 +1486,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UI.dll",
@@ -1449,7 +1497,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1460,7 +1508,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -1471,7 +1519,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UIModule.dll",
@@ -1482,7 +1530,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1493,7 +1541,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UNETModule.dll",
@@ -1504,7 +1552,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UNETModule.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1515,7 +1563,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1526,7 +1574,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1537,7 +1585,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1548,7 +1596,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1559,7 +1607,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1570,7 +1618,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1581,7 +1629,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1592,7 +1640,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1603,7 +1651,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1614,7 +1662,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1625,7 +1673,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1636,7 +1684,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1647,7 +1695,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1658,7 +1706,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.VRModule.dll",
@@ -1669,7 +1717,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.WindModule.dll",
@@ -1680,7 +1728,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Managed/UnityEngine.XRModule.dll",
@@ -1691,7 +1739,7 @@
       "Outputs": [
         "Builds/Prochaine Station_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
@@ -1702,7 +1750,7 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 139
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/app.info",
@@ -1714,20 +1762,20 @@
         "Builds/Prochaine Station_Data/app.info"
       ],
       "ToBuildDependencies": [
-        139
+        143
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station_Data/Resources/unity default resources",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
       ],
       "Outputs": [
         "Builds/Prochaine Station_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Builds/Prochaine Station.exe",
@@ -1738,249 +1786,249 @@
       "Outputs": [
         "Builds/Prochaine Station.exe"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles Builds/UnityCrashHandler64.exe",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
       ],
       "Outputs": [
         "Builds/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Builds/UnityPlayer.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
       ],
       "Outputs": [
         "Builds/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "Player",
@@ -2126,10 +2174,10 @@
         136,
         137,
         138,
+        139,
         140,
         141,
         142,
-        143,
         144,
         145,
         146,
@@ -2150,123 +2198,127 @@
         161,
         162,
         163,
-        164
+        164,
+        165,
+        166,
+        167,
+        168
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 165
+      "DebugActionIndex": 169
     }
   ],
   "FileSignatures": [
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/ClassRegistrationGenerator.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/ClassRegistrationGenerator.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
     },
     {
       "File": "Library/Bee/Player0f05ee47-inputdata.json"
@@ -2283,13 +2335,13 @@
       "File": "Builds/UnityCommon.props"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
     },
     {
       "File": "Library/Bee/Player0f05ee47-inputdata.json"
@@ -2301,18 +2353,18 @@
       "Recurse": 1
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
       "Recurse": 1
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
       "Recurse": 1
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline"
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Tools/BuildPipeline"
     },
     {
       "Path": "Library/PlayerDataCache/Win64/Data",
@@ -2356,7 +2408,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 165
+          "Player": 169
         }
 ,  "DefaultNodes": [
     0
