@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MetroCutscene/MetroCutscene.unity
     guid: 482982de8b247a3478e7b5c1d912d849
+  - enabled: 1
+    path: Assets/Scenes/MainGame/MainGame.unity
+    guid: be1d82af17a80e34f9beb6a8f3abd78b
   m_configObjects: {}
