@@ -13,9 +13,9 @@
 
 ## Installation
 
-1. Clone the repository:
-https://github.com/getll/HauntedMetro.git
-
+1. Download the latest build using [this link](https://drive.google.com/drive/folders/1bqGoOGh0dF0CaF6NAO-q5pymmYM9tiJu?usp=sharing)
+2. Extract the contents of the .zip file onto a folder
+3. Launch the executable (.exe) file and enjoy the game.
 
 ## Gameplay
 
