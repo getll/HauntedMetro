@@ -1,5 +1,5 @@
 # Prochaine Station
-Uh oh, you find yourself stuck in a deserted underground subway and need to find a way out. Except, you're not alone...
+Uh oh, you find yourself stuck in a deserted subway and need to find a way out. Except, you're not alone...
 
 ## Table of Contents
 - [Installation](#installation)
