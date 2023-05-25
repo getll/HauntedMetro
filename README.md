@@ -1,5 +1,5 @@
 # Prochaine Station
-Uh oh, you find yourself stuck in a deserted subway and need to find a way out. Except, you're not alone...
+Uh oh, you find yourself stuck in a deserted subway and need to find a way out. Except, you're not [alone...](https://cdn.discordapp.com/attachments/494672371320356864/1111089316823842906/NotAlone.jpg)
 
 ## Table of Contents
 - [Installation](#installation)
