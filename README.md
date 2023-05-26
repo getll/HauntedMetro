@@ -1,5 +1,5 @@
 # Prochaine Station
-Uh oh, you find yourself stuck in a deserted subway and need to find a way out. Except, you're not [alone...](https://cdn.discordapp.com/attachments/494672371320356864/1111089316823842906/NotAlone.jpg)
+You find yourself stuck in a deserted subway and need to find a way out. Except, you're not [alone...](https://cdn.discordapp.com/attachments/494672371320356864/1111089316823842906/NotAlone.jpg)
 
 ## Installation
 
@@ -18,7 +18,7 @@ The game follows a standard format, you are to obtain three to five crucial comp
 For any bugs or visual updates, you may report it to any of the developers and we will respond shortly.
 
 ## Credits
-| Developers/Modeling | <a href="https://github.com/Niravanaa">Nirav</a> | <a href="https://github.com/getll">Denmar</a><br> |
+| Developers/Modeling | <a href="https://github.com/Niravanaa">Nirav</a> | <a href="https://github.com/getll">Denmar</a> |
 | :---: | :---: | :---: |
 | <b>Graphic Designers</b> | <a href="https://github.com/Kiararara">Kiara</a> | <a href="https://github.com/TraceyV">Tracey</a></p> |
 
