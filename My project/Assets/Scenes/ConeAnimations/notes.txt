@@ -1,0 +1,14 @@
+notes
+
+ignore Monster (temp) game object
+
+animations
+- cone animations are played with cone inside the jumpscare game object
+- jumpscare animations are within the jumpscare game object
+
+sounds
+- event markers are placed where sounds should be played, you can use to call the sound functions from there
+- walk and run files are footsteps for cone: one shot sounds for each step (indicated using event markers)
+- standing sound is just played throughout the animation, once at start is fine
+- jumpscare sounds are also played throughout animation
+
